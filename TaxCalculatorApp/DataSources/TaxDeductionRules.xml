@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locations>
+  <Location name="Ireland">
+    <TaxDeductions>
+      <TaxDeduction name="Income Tax" type="ProgressiveDeduction" basicRatePercent="25" higherRatePercent="40" threshold="600" />
+      <TaxDeduction name="Universal Social Charge" type="ProgressiveDeduction" basicRatePercent="7" higherRatePercent="8" threshold="500" />
+      <TaxDeduction name="Pension" type="FlatDeduction" ratePercent="4"/>
+     </TaxDeductions>
+  </Location>
+  <Location name="Italy">
+    <TaxDeductions>
+      <TaxDeduction name="Income Tax" type="FlatDeduction" ratePercent="25" />      
+      <TaxDeduction name="INPS" type="FlatDeduction" ratePercent="9.19"/>
+    </TaxDeductions>
+  </Location>
+  <Location name="Germany">
+    <TaxDeductions>
+      <TaxDeduction name="Income Tax" type="ProgressiveDeduction" basicRatePercent="25" higherRatePercent="32" threshold="400" />
+      <TaxDeduction name="Pension" type="FlatDeduction" ratePercent="2"/>
+    </TaxDeductions>
+  </Location>
+</Locations>
